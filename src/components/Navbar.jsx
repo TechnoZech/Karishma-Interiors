@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import NavbarData from "./NavbarData";
 import "./NavbarStyles.css";
 
@@ -25,13 +26,16 @@ function Navbar() {
 
 		<>
 			<nav className="NavbarItems">
-				<img
-					className="logo"
-					src={Logo}
-					height="40"
-					width="180"
-					alt="Karishma Interiors Logo"
-				/>
+				<NavLink to="/" exact>
+
+                    <img
+                        className="logo"
+                        src={Logo}
+                        height="40"
+                        width="180"
+                        alt="Karishma Interiors Logo"
+                    />
+                </NavLink>
 
 				<div className="menu-icons" onClick={changesymbol}>
 					<i className={clickCvalue ? "fas fa-times" : "fas fa-bars"}></i>
@@ -41,10 +45,10 @@ function Navbar() {
 					{NavbarData.map((item, index) => {
 						return (
 							<li key={index}>
-								<a href={item.url} className={item.cName}>
+								<NavLink to={item.url} className={item.cName}>
 									<i class={item.icon}></i>
 									{item.title}
-								</a>
+								</NavLink>
 							</li>
 						);
 					})}
