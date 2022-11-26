@@ -3,9 +3,10 @@ import { NavLink } from "react-router-dom";
 import NavbarData from "./NavbarData";
 import "./NavbarStyles.css";
 
-const Logo = require("../images/Logo-white.png");
+const Logo = require("../images/Logo.png");
 function Navbar() {
 	
+// <--------------------- To update Hamburger Menu  ------------------------->
 
     const[clickCvalue, setclickvalue] = useState(false);
 
@@ -20,7 +21,6 @@ function Navbar() {
             }
         )
     }
-
 
 	return (
 
