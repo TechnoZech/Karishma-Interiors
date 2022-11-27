@@ -1,4 +1,4 @@
-section{
+.home_section{
     /* Textured Background from : https://www.transparenttextures.com/ */
     background-color: #393e46;
     background-image: url(http://www.transparenttextures.com/patterns/cubes.png); 
@@ -73,7 +73,7 @@ section{
         margin-bottom: 10px;
         color: #00ADB5;
         font-weight: bold;
-        font-size: 3.5rem;
+        font-size: 3.8rem;
         letter-spacing: 5px;
         text-align: center;
         /* text-justify: inter-word; */
@@ -82,13 +82,14 @@ section{
 
 
     .home-img{
-        margin-top: 10px;
-        margin-bottom: 50px;
+        margin-top: 30px;
+        margin-bottom: 90px;
         height: 200px;
         width: 650px;
         border-radius: 50px;
         box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.50);
         text-align: right;
+
     }
 
 

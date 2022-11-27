@@ -1,11 +1,12 @@
 import React from "react";
 import "./HomeStyles.css";
+import HomeTwo from "./HomeTwo";
 const Bedroom = require("../../images/bedroom.jpg");
 
 function Home(){
     return(
         <>
-            <section>
+            <section className="home_section">
                 <div className="home_container">
                     
                         <div className="home_text">
@@ -17,6 +18,7 @@ function Home(){
                     
                 </div>
             </section>
+            <HomeTwo />
         </>
     );
 }

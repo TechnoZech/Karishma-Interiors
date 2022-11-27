@@ -1,0 +1,117 @@
+.home_section_two{
+    background-color: #EEEE;
+    /* background-color: #393e46; */
+    background-image: url(http://www.transparenttextures.com/patterns/cubes.png);
+}
+
+.home_two_text_container{
+    display: grid;
+    margin: 0 10%;
+    margin-bottom: 50px;
+}
+
+.home_two_text_container h1{
+    color: #00ADB5;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 120px;
+}
+
+.home_two_text_container p{
+    text-align: center;
+    color: #393E46;
+}
+
+.home_two_card{
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.home_two_img{
+    height: 200px;
+    width: 350px;
+    border-radius: 20px;
+    filter: brightness(75%);
+    
+}
+
+.home_two_img:hover{
+    scale: 1.1;
+    transition: all 0.3s;
+    filter: brightness(100%);
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.50);
+    
+}
+
+.home_two_card:hover .home_two_card_text{
+    
+    filter: opacity(65%);
+}
+
+
+.home_two_img_container{
+    display: grid;
+    margin: 0 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+
+.home_two_card_text{
+    color: #fff;
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    
+}
+
+/* <------------------------------    For Mobile    ---------------------------->  */
+
+@media only screen and (max-width: 600px) {
+    .home_two_img_container{
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin-top: 10px;
+        
+    }
+
+    .home_two_img{
+        height: 180px;
+        width: 300px;
+        border-radius: 20px;
+        filter: brightness(75%);
+        
+    }
+    
+    .home_two_img:hover{
+        scale: 1.1;
+        transition: all 0.3s;
+        filter: brightness(100%);
+        box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.50);
+        
+    }
+
+    .home_two_card_text{
+        color: #fff;
+        position: absolute;
+        top: 140px;
+        left: 40px;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        
+    }
+
+    .home_two_text_container h1{
+        margin-top: 80px;
+    }
+    .home_two_text_container p{
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+}

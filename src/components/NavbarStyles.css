@@ -13,6 +13,7 @@
     left: 50%;
     transform: translate(-50%);
     align-items: center;
+    z-index: 99;
 
  }
 
@@ -25,6 +26,7 @@
     list-style: none;
     display: flex;
     margin-bottom: 0;
+    
    /* background-color: none; */
  }
 
@@ -106,8 +108,12 @@
       display: block;
       padding: 2rem 0;
       text-align: center;
-      color: #222;
+      color: #EEEEEE;
       margin-left: 0;
+   }
+
+   .nav-links:hover, .nav-btn:hover{
+      color: #393E46;
    }
    
    .menu-icons{
