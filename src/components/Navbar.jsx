@@ -26,8 +26,7 @@ function Navbar() {
 
 		<>
 			<nav className="NavbarItems">
-				<NavLink to="/" exact>
-
+				<NavLink to="/" exact className={({ isActive }) => isActive ? undefined : undefined}>
                     <img
                         className="logo"
                         src={Logo}
@@ -44,13 +43,25 @@ function Navbar() {
 				<ul className={clickCvalue ? "nav-menu active" : "nav-menu"}>
 					{NavbarData.map((item, index) => {
 						return (
-							<li key={index}>
-								<NavLink to={item.url} className={item.cName}>
-									<i class={item.icon}></i>
-									{item.title}
-								</NavLink>
-							</li>
-						);
+							 
+								item.cName === "nav-btn" ? ( // To remove active class from call-now btn
+									
+									<li key={index}>
+										<NavLink to={item.url} className={() => item.cName}>
+											<i class={item.icon}></i>
+											{item.title}
+										</NavLink> 
+									</li>
+								) : (
+									
+									<li key={index}>
+										<NavLink to={item.url} className={item.cName}>
+											<i class={item.icon}></i>
+											{item.title}
+										</NavLink> 
+									</li>
+								)
+							)
 					})}
 				</ul>
 			</nav>

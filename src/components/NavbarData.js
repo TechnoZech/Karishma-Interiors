@@ -32,6 +32,7 @@ const NavbarData = [
         url: "#",
         cName: "nav-btn",
         icon:"fa-solid fa-phone-volume"
+        
     },
     
 ]
