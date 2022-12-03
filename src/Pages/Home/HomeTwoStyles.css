@@ -4,10 +4,12 @@
     background-image: url(http://www.transparenttextures.com/patterns/cubes.png);
 }
 
+/* <--------------------   Home 2 Main heading CSS   ----------------->  */
+
 .home_two_text_container{
     display: grid;
     margin: 0 10%;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .home_two_text_container h1{
@@ -21,97 +23,106 @@
 .home_two_text_container p{
     text-align: center;
     color: #393E46;
+    margin-bottom: -100px;
 }
 
-.home_two_card{
+
+/* <----------------------    Swiper for destop    ---------------------->  */
+.home_two_swiper{
+    padding-bottom: 50px;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 5px;
+  }
+  
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 500px !important;
+    height: auto !important;
+    margin-top: 100px;
     margin-bottom: 50px;
-    position: relative;
-}
-
-.home_two_img{
-    height: 200px;
-    width: 350px;
-    border-radius: 20px;
-    filter: brightness(75%);
-    
-}
-
-.home_two_img:hover{
-    scale: 1.1;
-    transition: all 0.3s;
-    filter: brightness(100%);
-    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.50);
-    
-}
-
-.home_two_card:hover .home_two_card_text{
-    
-    filter: opacity(65%);
-}
-
-
-.home_two_img_container{
-    display: grid;
-    margin: 0 10%;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-    text-align: center;
-    margin-top: 10px;
-    
-}
-
+  }
+  
+.swiper-slide img {
+    display: block;
+    width: 500px;
+    height: 300px;
+    border-radius: 25px;
+    /* box-shadow: 5px 5px 0px 2px #000000a2; */
+  }
 
 .home_two_card_text{
     color: #fff;
     position: absolute;
-    top: 160px;
-    left: 50px;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, 0);
     font-size: 1.4rem;
     text-transform: uppercase;
+    background-color: #00acb5b3;
+    padding: 5px 10px;
+    border-radius: 5px;
+
     
 }
 
-/* <------------------------------    For Mobile    ---------------------------->  */
+/* <------------------------------ For Mobile    ---------------------------->  */
 
 @media only screen and (max-width: 600px) {
-    .home_two_img_container{
-        grid-template-columns: 1fr;
-        text-align: center;
-        margin-top: 10px;
+
+                    /* ---- Home 2 Main Heading Text --- */
+
+    .home_two_text_container h1{
+        margin-top: 80px;
+        font-size: 2.6rem;
+    }
+    .home_two_text_container p{
+        font-size: 1.2rem;
+        margin-bottom: 0;
         
     }
 
-    .home_two_img{
-        height: 180px;
-        width: 300px;
-        border-radius: 20px;
-        filter: brightness(75%);
-        
-    }
-    
-    .home_two_img:hover{
-        scale: 1.1;
-        transition: all 0.3s;
-        filter: brightness(100%);
-        box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.50);
-        
-    }
+                        /* ---- Home 2 Swiper --- */
 
     .home_two_card_text{
         color: #fff;
         position: absolute;
-        top: 140px;
-        left: 40px;
+        top: 170px;
+        left: 50%;
+        transform: translate(-50%, 0);
         font-size: 1.1rem;
         text-transform: uppercase;
         
     }
 
-    .home_two_text_container h1{
-        margin-top: 80px;
-    }
-    .home_two_text_container p{
-        font-size: 1rem;
-        margin-bottom: 0;
-    }
+    .swiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 5px;
+        margin-top: 30px;
+        
+      }
+      
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 350px !important;
+        height: auto !important;
+        margin-top: 20px;
+        margin-bottom: 40px;
+       
+      }
+      
+    .swiper-slide img {
+        display: block;
+        width: 350px;
+        height: 210px;
+        
+      }
+
+    
 }

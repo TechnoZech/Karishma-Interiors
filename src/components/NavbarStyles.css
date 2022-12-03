@@ -124,7 +124,10 @@
       padding: 1rem 0rem;
 
    }
-
+   .active{
+      background-color: #00acb5b3 !important;
+      border-radius: 14px !important;
+    }
  }
 
  .active{
