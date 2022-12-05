@@ -1,6 +1,7 @@
 import React from "react";
 import "./HomeStyles.css";
 import HomeTwo from "./HomeTwo";
+import Homethree from "./HomeThree";
 const Bedroom = require("../../images/bedroom.jpg");
 
 function Home(){
@@ -19,6 +20,7 @@ function Home(){
                 </div>
             </section>
             <HomeTwo />
+            <Homethree />
         </>
     );
 }
