@@ -11,7 +11,7 @@ import turnkey from "../../images/turnkey.jpg";
 
 
 
-const Home_three_data = [
+const ServicesData = [
     {
         src: furniture,
         alt: "furniture"
@@ -61,4 +61,4 @@ const Home_three_data = [
 
 ]
 
-export default Home_three_data;
+export default ServicesData;

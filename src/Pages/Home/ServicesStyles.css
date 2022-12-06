@@ -1,11 +1,11 @@
-.home_three_section{
+.services_section{
     /* Textured Background from : https://www.transparenttextures.com/ */
     background-color: #393e46;
     background-image: url(http://www.transparenttextures.com/patterns/cubes.png); 
 }
 
 
-.home_three_container{
+.services_container{
     display: grid;
     margin: 0 10%;
     
@@ -14,19 +14,18 @@
 /* <<--------------------     Heading Part    ------------------>> */
 
 
-.home_three_text_container{
+.services_text_container{
     display: grid;
     margin: 50px 0;
 }
 
-.home_three_text_container h1{
+.services_text_container h1{
 
-    
     width: 100%;
     color: #fff;
     font-weight: bold;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-top: 80px;
     letter-spacing: 2px;
     /* text-transform: uppercase; */
@@ -39,7 +38,7 @@
 
 /* <<--------------------     Image Cards Part    ------------------>> */
 
-.home_three_img_container{
+.services_img_container{
     display: grid;
     /* margin: 0 10%; */
     grid-template-columns: 1fr 1fr 1fr;
@@ -49,7 +48,7 @@
     margin-bottom: 80px;
 }
 
-.home_three_card{
+.services_card{
     
     transform-origin: left top;
     margin-bottom: 25px;
@@ -62,14 +61,14 @@
     box-shadow: 5px 5px 0px 2px #fff;
 }
 
-.home_three_card:hover{
+.services_card:hover{
     scale: 1.1;
     transition: all 0.3s;
-    filter: brightness(100%);
+    /* filter: brightness(100%); */
     /* box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.50); */
 }
 
-.home_three_img{
+.services_img{
     height: 150px;
     width: 350px;
     border-radius: 20px;
@@ -83,14 +82,14 @@
 /* <<--------------------     Image Text Part    ------------------>> */
 
 
-.home_three_card:hover .home_three_card_text{
+.services_card:hover .home_three_card_text{
 
     filter: opacity(65%);
     cursor: default;
 }
 
 
-.home_three_card_text{
+.services_card_text{
 
     color: #fff;
     background-color: #323232c0;

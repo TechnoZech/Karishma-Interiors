@@ -1,7 +1,8 @@
 import React from "react";
 import "./HomeStyles.css";
 import HomeTwo from "./HomeTwo";
-import Homethree from "./HomeThree";
+import Services from "./Services";
+import Testimonials from "./Testimonials";
 const Bedroom = require("../../images/bedroom.jpg");
 
 function Home(){
@@ -20,7 +21,8 @@ function Home(){
                 </div>
             </section>
             <HomeTwo />
-            <Homethree />
+            <Services />
+            <Testimonials />
         </>
     );
 }

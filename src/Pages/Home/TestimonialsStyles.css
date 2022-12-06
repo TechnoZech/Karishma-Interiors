@@ -1,0 +1,86 @@
+.testimonials_section{
+  background-color: #EEEE;
+  /* background-color: #393e46; */
+  background-image: url(http://www.transparenttextures.com/patterns/cubes.png);
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.testimonails_swiper_div{
+  margin: 0 15%;
+
+}
+
+.testimonials_heading{
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding: 10px 30px;
+  background-color: #00acb580;
+  border-radius: 10px;
+  color: #fff;
+}
+
+
+
+/* <<--------------------     Desktop Swiper CSS    ------------------>> */
+
+
+.Swiper_Testimonials {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .SwiperSlide_Testimonials {
+    text-align: center;
+    font-size: 18px;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: inline-block;
+
+  }
+  
+  .SwiperSlide_Testimonials img {
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+    object-fit: cover;
+  }
+
+  .Testimonials_review{
+    color: #2C3333;
+    margin: 50px 10%;
+    display: block;
+    font-size: 1.1rem;
+  }
+
+  .Testimonials_name{
+    
+    color: #2C3333;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .SwiperSlide_Testimonials i{
+    color: #d3af37;
+    margin-bottom: 50px;
+  }
+  .SwiperSlide_Testimonials i + i{
+    margin-left: 5px;
+  }

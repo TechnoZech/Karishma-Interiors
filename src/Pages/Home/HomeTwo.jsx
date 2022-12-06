@@ -25,7 +25,7 @@ function HomeTwo(){
                     <h1>One-stop solution for all Interiors</h1>
                     <p>Whether it’s a magazine-like dream kitchen or your entire home <br/> enjoy end-to-end solutions from design to installation.</p>
             </div>
-            <div className="home_two_swiper">
+            <div className="home_two_swiper_div">
             <Swiper
                     effect={"coverflow"}
                     grabCursor={true}
@@ -42,13 +42,13 @@ function HomeTwo(){
                     }}
                     pagination={true}
                     modules={[EffectCoverflow, Pagination]}
-                    className="mySwiper"
+                    className="mySwiper home_two_swiper"
                 >
 
                     {
                     Home_two_data.map((item, index) => {
                             return (
-                                <SwiperSlide key={index}>
+                                <SwiperSlide key={index} className="home_two_swiper_slide">
                                     <img src={item.src} alt={item.alt} />
                                     <h2 className="home_two_card_text">{item.alt}</h2>
                                 </SwiperSlide>

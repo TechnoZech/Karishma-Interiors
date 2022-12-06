@@ -29,17 +29,17 @@
 
 
 /* <----------------------    Swiper for destop    ---------------------->  */
-.home_two_swiper{
+.home_two_swiper_div{
     padding-bottom: 50px;
 }
 
-.swiper {
+.home_two_swiper {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 5px;
   }
   
-.swiper-slide {
+.home_two_swiper_slide {
     background-position: center;
     background-size: cover;
     width: 500px !important;
@@ -48,7 +48,7 @@
     margin-bottom: 50px;
   }
   
-.swiper-slide img {
+.home_two_swiper_slide img {
     display: block;
     width: 500px;
     height: 300px;
@@ -101,7 +101,7 @@
         
     }
 
-    .swiper {
+    .home_two_swiper {
         width: 100%;
         padding-top: 50px;
         padding-bottom: 5px;
@@ -109,7 +109,7 @@
         
       }
       
-    .swiper-slide {
+    .home_two_swiper_slide {
         background-position: center;
         background-size: cover;
         width: 350px !important;
@@ -119,7 +119,7 @@
        
       }
       
-    .swiper-slide img {
+    .home_two_swiper_slide img {
         display: block;
         width: 350px;
         height: 210px;
