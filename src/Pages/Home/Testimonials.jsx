@@ -23,12 +23,13 @@ function Testimonials() {
 							return (
                                 <SwiperSlide className="SwiperSlide_Testimonials">
                                     <div key={index}>
-                                        <img src={item.url} alt="Testimonial" />
-
-                                        <p className="Testimonials_review">
-                                            {item.review}
-                                        </p>
-
+                                        <img src={item.url} alt="Testimonial" /> <br />
+                                            <i className="fa-solid fa-quote-left left_quote"></i>
+                                                <p className="Testimonials_review">
+                                                
+                                                    {item.review}
+                                                </p>
+                                            <i className="fa-solid fa-quote-right right_quote"></i> 
                                         <h2 className="Testimonials_name">
                                             {item.name}
                                         </h2>
@@ -38,6 +39,7 @@ function Testimonials() {
                                         <i className="fa-solid fa-star"></i>
                                         <i className="fa-solid fa-star"></i>
                                         <i className="fa-solid fa-star"></i>
+                                        
                                     </div>
                                 </SwiperSlide>
 							);

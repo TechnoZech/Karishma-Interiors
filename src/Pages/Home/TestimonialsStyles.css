@@ -52,6 +52,7 @@
     -webkit-align-items: center;
     align-items: center;
     display: inline-block;
+    position: relative;
 
   }
   
@@ -60,6 +61,21 @@
     width: 130px;
     border-radius: 100%;
     object-fit: cover;
+  }
+
+  .left_quote{
+    position: absolute;
+    left: 8%;
+    top: 35%;
+    font-size: 2rem;
+    color: #00ADB5 !important;
+  }
+  .right_quote{
+    position: absolute;
+    top: 55%;
+    right: 8%;
+    font-size: 2rem;
+    color: #00ADB5 !important;
   }
 
   .Testimonials_review{
@@ -95,6 +111,18 @@
   .testimonails_swiper_div{
     margin: 0;
   
+  }
+
+  .left_quote{
+    left: 5%;
+    top: 28%;
+  
+  }
+  .right_quote{
+
+    top: 65%;
+    right: 5%;
+    
   }
 
 }

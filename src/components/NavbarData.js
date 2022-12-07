@@ -29,7 +29,7 @@ const NavbarData = [
     },
     {
         title: "Call Now",
-        url: "#",
+        url: "tel:+919974532614",
         cName: "nav-btn",
         icon:"fa-solid fa-phone-volume"
         
