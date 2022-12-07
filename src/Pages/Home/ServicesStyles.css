@@ -17,6 +17,7 @@
 .services_text_container{
     display: grid;
     margin: 50px 0;
+    justify-content: center;
 }
 
 .services_text_container h1{
@@ -31,7 +32,7 @@
     /* text-transform: uppercase; */
     background-color: #00acb580;
     border-radius: 10px;
-    padding: 5px 0;
+    padding: 5px 20px;
     
     
 }
@@ -54,11 +55,11 @@
     margin-bottom: 25px;
     position: relative;
     height: 150px;
-    width: 350px;
+    width: 95%;
     border-radius: 20px;
     left: 50%;
     transform: translate(-50%);
-    box-shadow: 5px 5px 0px 2px #fff;
+    
 }
 
 .services_card:hover{
@@ -70,10 +71,11 @@
 
 .services_img{
     height: 150px;
-    width: 350px;
+    width: 95%;
     border-radius: 20px;
     /* filter: brightness(35%); */
     object-fit: cover;
+    box-shadow: 5px 5px 0px 2px #fff;   
 
 
 }
@@ -106,47 +108,66 @@
 
 
 
-/* <------------------------------    For Mobile    ---------------------------->  */
+/* <<<============================    For Mobile    ============================>>>  */
 
-/* @media only screen and (max-width: 600px) {
-    .home_two_img_container{
+
+@media only screen and (max-width: 600px) {
+
+
+    .services_text_container{
+        display: grid;
+        margin: 20px 0;
+    }
+
+    .services_text_container h1{
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+
+    .services_img_container{
         grid-template-columns: 1fr;
         text-align: center;
         margin-top: 10px;
 
     }
 
-    .home_two_img{
-        height: 180px;
-        width: 300px;
+    .services_card{
+        margin-bottom: 25px;
+        position: relative;
+        height: 100px;
+        width: 95%;
         border-radius: 20px;
-        filter: brightness(75%);
-
     }
-
-    .home_two_img:hover{
-        scale: 1.1;
+    
+    .services_card:hover{
+        scale: 1.05;
         transition: all 0.3s;
-        filter: brightness(100%);
-        box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.50);
+    }
+
+    .services_img{
+        height: 100px;
+        width: 95%;
+        border-radius: 20px;
+        object-fit: cover;
+        box-shadow: 5px 5px 0px 2px #fff;
 
     }
 
-    .home_two_card_text{
+    .services_card_text{
         color: #fff;
+        background-color: #323232c0;
         position: absolute;
-        top: 140px;
-        left: 40px;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, 0);
         font-size: 1.1rem;
         text-transform: uppercase;
+        letter-spacing: 2px;
+        border-radius: 5px;
+        padding: 5px 10px;
 
     }
 
-    .home_two_text_container h1{
-        margin-top: 80px;
-    }
-    .home_two_text_container p{
-        font-size: 1rem;
-        margin-bottom: 0;
-    }
-} */
+    
+
+}

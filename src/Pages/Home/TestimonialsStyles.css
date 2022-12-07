@@ -84,3 +84,17 @@
   .SwiperSlide_Testimonials i + i{
     margin-left: 5px;
   }
+
+
+  /* <<<============================    For Mobile    ============================>>>  */
+
+
+  
+@media only screen and (max-width: 600px) {
+
+  .testimonails_swiper_div{
+    margin: 0;
+  
+  }
+
+}
