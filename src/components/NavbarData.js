@@ -7,8 +7,8 @@ const NavbarData = [
         style: "navLinkStyles"
     },
     {
-        title: "Service",
-        url: "/Service",
+        title: "Projects",
+        url: "/Projects",
         cName: "nav-links",
         icon:"fa-solid fa-briefcase",
         style: "navLinkStyles"

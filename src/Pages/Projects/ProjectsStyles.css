@@ -1,0 +1,160 @@
+.project_section{
+    /* Textured Background from : https://www.transparenttextures.com/ */
+    background-color: #393e46;
+    background-image:  url(http://www.transparenttextures.com/patterns/cubes.png); 
+}
+.background_section{
+    background-color: #07090a98;
+}
+  /* <<<========================    For Desktop    =========================>>>  */
+
+.project_container{
+    margin: 0 10%;
+    padding-top: 100px;
+    padding-bottom: 100px; 
+    text-align: center;
+}
+
+.project_module_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+}
+
+.project_module_container hr{
+    position: relative;
+    left: 50%;
+    border-top: 10px dotted #EEEEEE;
+    margin-top: 50px;
+
+}
+
+/* <<--------------------     Project Main Heading    ------------------>> */
+
+.project_heading{
+    display: inline-block;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 10px 30px;
+    background-color: #00acb580;
+    border-radius: 10px;
+    color: #fff;
+    
+}
+
+/* <<--------------------  Project Sub Heading and Description ------------------>> */
+
+.project_text_container h2,p{
+    text-align: start;
+    color: #EEEEEE;
+}
+
+.project_text_container h2{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.project_text_container p{
+    font-size: 1.5rem;
+    padding-right: 20px;
+    
+}
+
+/* <<--------------------     Project Images    ------------------>> */
+
+.Project_images{
+    width: 550px;
+    height: 320px;
+    object-fit: cover;
+}
+
+
+/* <<--------------------     Swiper CSS    ------------------>> */
+
+.Project_Swiper {
+    width: 550px;
+    height: 320px;
+  }
+  
+  .Project_SwiperSlide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    
+  }
+  
+
+  /* <<<============================    For Mobile    ============================>>>  */
+
+
+@media only screen and (max-width: 600px) {
+  .project_module_container{
+    grid-template-columns: 1fr;
+    margin-bottom: 60px;
+}
+
+.project_container{
+    margin: 0 5%;
+    padding-top: 80px;
+}
+
+.project_module_container hr{
+
+    left: 25%;
+    border-top: 10px dotted #EEEEEE;
+    margin-top: 80px;
+    width: 50%;
+
+}
+
+/* <<--------------------     Project Main Heading    ------------------>> */
+
+.project_heading{
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+/* <<--------------------  Project Sub Heading and Description ------------------>> */
+
+.project_text_container h2,p{
+    color: #EEEEEE;
+}
+
+.project_text_container h2{
+    text-align: start;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.project_text_container p{
+    font-size: 1.2rem;
+    padding-right: 0;
+    text-align: justify;
+    margin-bottom: 30px;
+    
+}
+
+/* <<--------------------     Project Images    ------------------>> */
+
+.Project_images{
+    width: 290px;
+    height: 200px;
+}
+
+
+/* <<--------------------     Swiper CSS    ------------------>> */
+
+.Project_Swiper {
+    width: 290px;
+    height: 200px;
+  }
+  
+
+}

@@ -6,7 +6,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
 import Home from "./Pages/Home/Home";
-import Service from "./Pages/Service/Service";
+import Projects from "./Pages/Projects/Projects";
 
 function App() {
 	return (
@@ -18,7 +18,7 @@ function App() {
 					<Route path="/" element={<Home />} />
 					<Route path="/About" element={<About />} />
 					<Route path="/Contact" element={<Contact />} />
-					<Route path="/Service" element={<Service />} />
+					<Route path="/Projects" element={<Projects />} />
 				</Routes>
 			</main>
 		</Router>

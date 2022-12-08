@@ -9,6 +9,7 @@ function Home(){
     return(
         <>
             <section className="home_section">
+            <section className="background_section">
                 <div className="home_container">
                     
                         <div className="home_text">
@@ -19,6 +20,7 @@ function Home(){
                         </div>
                     
                 </div>
+            </section>
             </section>
             <HomeTwo />
             <Services />
