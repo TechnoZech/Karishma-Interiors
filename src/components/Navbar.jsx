@@ -21,7 +21,7 @@ function Navbar() {
 
 	return (
 		<>
-			<nav className="NavbarItems">
+			<nav className="NavbarItems"> 
 				<NavLink
 					to="/"
 					exact

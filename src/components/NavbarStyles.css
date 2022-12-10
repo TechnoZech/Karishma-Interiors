@@ -1,3 +1,4 @@
+ /* <<<========================    For Desktop    =========================>>>  */
  .NavbarItems{
     display: flex;
     background-color: #2C3333;
@@ -36,10 +37,12 @@
     white-space: nowrap;
     padding: 0.7rem 1rem;
     text-decoration: none;
+    font-size: 1.2rem;
  }
 
  .nav-links i{
     padding-right: 10px;
+    
  }
 
  .nav-links:hover{
@@ -50,23 +53,30 @@
  }
 
  .nav-btn{
-    /* background-color: #00ADB5; */
     text-decoration: none;
     border-radius: 4px;
     border: 2px solid #00ADB5;
     color: #00ADB5;
     padding: 0.7rem 1rem ;
     margin-left: 50px;
+    font-size: 1.2rem;
  }
 
  .nav-btn:hover{
-    background-color: #00ADB5;
+   background-color: #00ADB5;
+   color: #EEEEEE;
+   transition: all 0.2s ease-in-out;
+}
+ .nav-btn:hover > .call_icon_btn{
     color: #EEEEEE;
+    transition: all 0.2s ease-in-out;
  }
 
  .nav-btn i{
     padding-right: 10px;
+    color: #00ADB5;
  }
+
 
  .fa-bars,.fa-times{
     color: #EEEEEE;
@@ -76,7 +86,10 @@
    display: none;
  }
 
+ /* <<<========================    For Mobile    =========================>>>  */
+
  @media screen and (max-width:850px) {
+
    .NavbarItems{
       z-index: 99;
    }
@@ -113,7 +126,7 @@
    }
 
    .nav-links:hover, .nav-btn:hover{
-      color: #393E46;
+      color: #EEEEEE;;
    }
    
    .menu-icons{
@@ -122,8 +135,17 @@
 
    .nav-btn{
       padding: 1rem 0rem;
-
    }
+
+   .nav-btn i{
+      color: #EEEEEE;
+   }
+
+   .nav-btn:hover > .call_icon_btn{
+      color: #EEEEEE;
+      transition: all 0.2s ease-in-out;
+   }
+   
    .active{
       background-color: #00acb5b3 !important;
       border-radius: 14px !important;

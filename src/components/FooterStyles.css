@@ -1,0 +1,158 @@
+.footer_section{
+        /* Textured Background from : https://www.transparenttextures.com/ */
+        background-color: #393e46;
+        background-image: url(http://www.transparenttextures.com/patterns/cubes.png); 
+}
+
+ /* <<<========================    For Desktop    =========================>>>  */
+
+.footer_container{
+    display: grid;
+    margin: 0 10%;
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.Link_container{
+    margin-bottom: 10px;
+}
+
+/* <<--------------------     Footer Nav Links    ------------------>> */
+
+.footer_nav_links{
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
+
+.footer_nav_links:hover{
+    color: #00ADB5;
+    transition: all 0.2s ease-in-out;
+}
+
+/* <<--------------------     Footer External Links    ------------------>> */
+
+.External_link_container{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.External_link_container a, i{
+    color: #EEEEEE;
+    font-size: 1.1rem;
+}
+
+.External_link_container a{
+    text-decoration: none;
+}
+
+.External_link_container i{
+    margin-right: 10px;
+}
+
+.External_link_container:hover i, .External_link_container:hover a{
+    color: #00ADB5;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+/* <<--------------------     Footer Social Icons    ------------------>> */
+
+
+
+.Footer_social_icons i{
+    font-size: 2rem;
+    border: solid 1px #EEEEEE;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.Footer_social_icons i:hover{
+    color: #EEEEEE;
+    background-color: #00ADB5;
+    border: solid 1px #00ADB5;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.Footer_social_icons{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Footer_social_icons a + a{
+    padding-left: 80px;
+}
+
+/* <<--------------------     Privacy Policy and Terms    ------------------>> */
+
+.policy{
+    margin-bottom: 5px;
+}
+.policy_link{
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.footer_last_lines span{
+    color: #EEEEEE;
+    font-size: 1rem;
+}
+
+
+/* <<--------------------     Desigend and Developed by    ------------------>> */
+
+.footer_last_lines h4, a{
+    color: #EEEEEE;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.footer_last_lines h4{
+    margin-bottom: 5px;
+}
+
+
+.footer_last_lines a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer_last_lines a:hover{
+    color: #00ADB5;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.footer_last_lines h3{
+    font-size: 1rem;
+    color: #EEEEEE;
+    margin-bottom: 15px;
+}
+
+/* <<<========================    For Mobile    =========================>>>  */
+
+@media only screen and (max-width: 600px) {
+
+
+    .footer_container{
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .Footer_social_icons a + a{
+        padding-left: 30px;
+    }
+    .footer_last_lines h3{
+        display: inline;
+        text-align: center;
+    }
+
+
+
+}

@@ -31,7 +31,7 @@ const NavbarData = [
         title: "Call Now",
         url: "tel:+919974532614",
         cName: "nav-btn",
-        icon:"fa-solid fa-phone-volume"
+        icon:"fa-solid fa-phone-volume call_icon_btn"
         
     },
     
