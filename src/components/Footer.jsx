@@ -26,7 +26,7 @@ function Footer(){
 
                             <div className="footer_last_lines">
                                 <div className="policy">
-                                    <Link to="/about" className="policy_link"> Privacy Policy </Link> <span>|</span>
+                                    <Link to="/privacy" className="policy_link"> Privacy Policy </Link> <span>|</span>
                                     <Link to="/about" className="policy_link"> Terms&Conditions</Link>
                                 </div>
                                 <h4>Designed & Developed By <a href="https://www.youtube.com/?gl=IN">@DoozyDope</a> </h4>

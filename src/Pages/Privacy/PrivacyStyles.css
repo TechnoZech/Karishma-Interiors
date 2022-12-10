@@ -1,0 +1,29 @@
+.privacy_section{
+        /* Textured Background from : https://www.transparenttextures.com/ */
+        background-color: #393e46;
+        background-image: url(http://www.transparenttextures.com/patterns/cubes.png);
+}
+
+.privacy_container{
+    margin: 0 10%;
+    text-align: start;
+    padding-top: 130px;
+    padding-bottom: 80px;
+}
+
+.privacy_container h1,h2{
+    color: #00ADB5;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.privacy_container p{
+    color: #EEEEEE;
+    font-size: 1.1rem;
+}
+
+.privacy_container li, ul{
+    color: #EEEEEE;
+}
