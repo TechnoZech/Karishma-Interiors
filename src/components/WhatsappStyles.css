@@ -1,0 +1,43 @@
+.whatsapp_div{
+    display: inline-block;
+    position: fixed;
+    left: 92%;
+    top: 85%;
+    z-index: 99;
+}
+
+.whatsapp_icon{
+    font-size: 2rem;
+    height: 65px;
+    width: 65px;
+    background-color: #25D366;
+    color: #FFFFFF;
+    padding: 16px 5px 15px 19px;
+    border-radius: 100%;
+   
+}
+
+.whatsapp_icon:hover{
+    color: #FFFFFF;
+    transition: all 0.3s ease-in-out;
+    scale: 1.1;
+}
+
+
+ /* <<<============================    For Mobile    ============================>>>  */
+
+ @media only screen and (max-width: 600px) {
+
+    .whatsapp_div{
+        left: 78%;
+        top: 90%;
+       
+    }
+    .whatsapp_icon{
+        height: 60px;
+        width: 60px;
+        padding: 14px 5px 15px 17px;
+    }
+ 
+
+ }

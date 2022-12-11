@@ -10,11 +10,13 @@ import Projects from "./Pages/Projects/Projects";
 import Footer from './components/Footer';
 import Privacy from "./Pages/Privacy/Privacy";
 import Terms from "./Pages/Privacy/Terms";
+import Whatsapp from "./components/Whatspp";
 
 function App() {
 	return (
 		<Router>
 			<Navbar />
+			<Whatsapp />
 			<main>
 				<Routes>
 					<Route path="*" element={<Home />} />

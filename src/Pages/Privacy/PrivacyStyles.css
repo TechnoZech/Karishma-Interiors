@@ -13,15 +13,10 @@
 
 .privacy_container h1,h2,h3{
     color: #00ADB5;
-    font-size: 2rem;
-    font-weight: bold;
-    margin-top: 80px;
-    margin-bottom: 20px;
 }
 
 .privacy_container p{
     color: #EEEEEE;
-    font-size: 1.1rem;
 }
 
 .privacy_container li, ul{
