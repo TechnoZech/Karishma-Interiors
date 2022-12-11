@@ -11,14 +11,17 @@ import Footer from './components/Footer';
 import Privacy from "./Pages/Privacy/Privacy";
 import Terms from "./Pages/Privacy/Terms";
 import Whatsapp from "./components/Whatspp";
+import ScrollToTop from './components/Scroll';
 
 function App() {
 	return (
 		<Router>
+		<ScrollToTop />
 			<Navbar />
 			<Whatsapp />
 			<main>
 				<Routes>
+				
 					<Route path="*" element={<Home />} />
 					<Route path="/" element={<Home />} />
 					<Route path="/About" element={<About />} />
