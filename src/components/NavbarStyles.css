@@ -119,10 +119,15 @@
 
    .nav-links, .nav-btn{
       display: block;
-      padding: 2rem 0;
+      padding: 1.5rem 0;
       text-align: center;
       color: #EEEEEE;
       margin-left: 0;
+   }
+
+   .nav-btn{
+      margin-left: 1rem;
+      margin-right: 1rem;
    }
 
    .nav-links:hover, .nav-btn:hover{
