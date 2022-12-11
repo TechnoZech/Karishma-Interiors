@@ -44,14 +44,14 @@ function Navbar() {
 					{NavbarData.map((item, index) => {
 						return item.cName === "nav-btn" ? ( // To remove active class from call-now btn
 							<li key={index}>
-								<NavLink to={item.url} className={() => item.cName}>
+								<a href="tel:+919974532614" target="_blank" rel="noreferrer" className={item.cName}>
 									<i class={item.icon}></i>
 									{item.title}
-								</NavLink>
+								</a>
 							</li>
 						) : (
 							<li key={index}>
-								<NavLink to={item.url} className={item.cName}>
+	 							<NavLink to={item.url} className={item.cName}>
 									<i class={item.icon}></i>
 									{item.title}
 								</NavLink>
