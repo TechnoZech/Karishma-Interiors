@@ -7,7 +7,6 @@ const Logo = require("../images/Logo.png");
 function Navbar() {
 
 
-
 // <----------------- To update Hamburger Menu to cross icon  -------------------->
 
 	const [clickCvalue, setclickvalue] = useState(false);
@@ -50,7 +49,7 @@ function Navbar() {
 				</div>
 {/* // <------------------- Navbar Hamburger Menu List Logic  ---------------------> */}
 
-				<ul className={clickCvalue ? "nav-menu active" : "nav-menu"}>
+				<ul className={clickCvalue ? "nav-menu active" : "nav-menu"} onClick={changesymbol}>
 
 					{NavbarData.map((item, index) => {
 						return item.cName === "nav-btn" ? ( // To remove active class from call-now btn
