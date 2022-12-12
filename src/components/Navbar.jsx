@@ -7,6 +7,16 @@ const Logo = require("../images/Logo.png");
 function Navbar() {
 
 
+
+// <----------------- Scroll to top for Brand icon -------------------->
+
+function scrollUp() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+
 // <----------------- To update Hamburger Menu to cross icon  -------------------->
 
 	const [clickCvalue, setclickvalue] = useState(false);
@@ -20,6 +30,8 @@ function Navbar() {
 			}
 		});
 	}
+
+
 
 	return (
 		<>
@@ -39,6 +51,7 @@ function Navbar() {
 						height="40"
 						width="180"
 						alt="Karishma Interiors Logo"
+						onClick={scrollUp}
 					/>
 				</NavLink>
 
@@ -49,7 +62,7 @@ function Navbar() {
 				</div>
 {/* // <------------------- Navbar Hamburger Menu List Logic  ---------------------> */}
 
-				<ul className={clickCvalue ? "nav-menu active" : "nav-menu"} onClick={changesymbol}>
+				<ul className={clickCvalue ? "nav-menu active" : "nav-menu"} >
 
 					{NavbarData.map((item, index) => {
 						return item.cName === "nav-btn" ? ( // To remove active class from call-now btn
