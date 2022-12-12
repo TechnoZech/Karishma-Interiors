@@ -62,7 +62,7 @@ function scrollUp() {
 				</div>
 {/* // <------------------- Navbar Hamburger Menu List Logic  ---------------------> */}
 
-				<ul className={clickCvalue ? "nav-menu active" : "nav-menu"} >
+				<ul className={clickCvalue ? "nav-menu active" : "nav-menu"}>
 
 					{NavbarData.map((item, index) => {
 						return item.cName === "nav-btn" ? ( // To remove active class from call-now btn

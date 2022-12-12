@@ -123,9 +123,10 @@
       text-align: center;
       color: #EEEEEE;
       margin-left: 0;
+      margin-bottom: 5px;
    }
 
-   .nav-btn{
+   .nav-links,.nav-btn{
       margin-left: 1rem;
       margin-right: 1rem;
    }
@@ -153,7 +154,7 @@
    
    .active{
       background-color: #00acb5b3 !important;
-      border-radius: 14px !important;
+      border-radius: 10px !important;
     }
  }
 
