@@ -104,6 +104,7 @@
 .project_container{
     margin: 0 5%;
     padding-top: 80px;
+    padding-bottom: 20px !important;
 }
 
 .project_module_container hr{

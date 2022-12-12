@@ -1,7 +1,7 @@
  /* <<<========================    For Desktop    =========================>>>  */
  .NavbarItems{
     display: flex;
-    background-color: #2C3333;
+    background-color: #222831;
     justify-content: space-between;
     font-size: 1.2rem;
     padding: 0 30px;

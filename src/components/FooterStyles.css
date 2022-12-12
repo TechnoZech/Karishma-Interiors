@@ -4,6 +4,9 @@
         background-image: url(http://www.transparenttextures.com/patterns/cubes.png); 
 }
 
+.background_section_footer{
+    background-color: #07090aca;
+}
  /* <<<========================    For Desktop    =========================>>>  */
 
 .footer_container{

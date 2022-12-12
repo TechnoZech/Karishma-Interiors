@@ -34,7 +34,7 @@
     height: 400px;
     width: 650px;
     border-radius: 50px;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.50);
+    /* box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.35); */
     text-align: right;
 }
 .animated{
@@ -87,7 +87,7 @@
         height: 200px;
         width: 650px;
         border-radius: 50px;
-        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.50);
+        /* box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.50); */
         text-align: right;
 
     }

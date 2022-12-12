@@ -6,6 +6,7 @@ function Footer(){
     return(
         <>
             <section className="footer_section">
+            <section className="background_section_footer">
                 <div className="footer_container">
 
                             {FooterData.ExternalLink.map((item,index)=>{
@@ -36,6 +37,7 @@ function Footer(){
 
                     
                 </div>
+            </section>
             </section>
         </>
     )

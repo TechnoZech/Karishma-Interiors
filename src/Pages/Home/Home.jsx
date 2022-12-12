@@ -3,7 +3,8 @@ import "./HomeStyles.css";
 import HomeTwo from "./HomeTwo";
 import Services from "./Services";
 import Testimonials from "./Testimonials";
-const Bedroom = require("../../images/bedroom.jpg");
+const Bedroom = require("../../images/interiror.png");
+
 
 function Home(){
     return(

@@ -6,6 +6,7 @@ function Services() {
 	return (
 		<>
 			<section className="services_section">
+			<section className="background_section">
 				<div className="services_container">
 					<div className="services_text_container">
 						<h1>Services</h1>
@@ -26,6 +27,7 @@ function Services() {
 						})}
 					</div>
 				</div>
+			</section>
 			</section>
 		</>
 	);
