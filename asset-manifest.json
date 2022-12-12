@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Karishma-Interiors/static/css/main.0dc08e7b.css",
+    "main.js": "/Karishma-Interiors/static/js/main.cfc283a1.js",
+    "static/media/spaceSavingFurniture.jpg": "/Karishma-Interiors/static/media/spaceSavingFurniture.b94e2995de357da1526a.jpg",
+    "static/media/construction.jpg": "/Karishma-Interiors/static/media/construction.e320143c9312a480e460.jpg",
+    "static/media/kitchen.jpg": "/Karishma-Interiors/static/media/kitchen.ae6a22db8a4f2b87b767.jpg",
+    "static/media/popgypsum.jpg": "/Karishma-Interiors/static/media/popgypsum.a529d7c1f3ac5ce2e106.jpg",
+    "static/media/office.jpg": "/Karishma-Interiors/static/media/office.5d6e291ec3860a53e14b.jpg",
+    "static/media/bathroom.jpg": "/Karishma-Interiors/static/media/bathroom.877dfc64a47b60729fed.jpg",
+    "static/media/electrician.jpg": "/Karishma-Interiors/static/media/electrician.6247d1027471c4e6699e.jpg",
+    "static/media/livingroom.jpg": "/Karishma-Interiors/static/media/livingroom.1d50b69b48fdbf69bb4e.jpg",
+    "static/media/bedroom.jpg": "/Karishma-Interiors/static/media/bedroom.479b1f40f7a2e23d28da.jpg",
+    "static/media/Logo.png": "/Karishma-Interiors/static/media/Logo.10180f1e84f93ec1677f.png",
+    "static/media/turnkey.jpg": "/Karishma-Interiors/static/media/turnkey.094f212729b65ad3f44e.jpg",
+    "static/media/interiror.png": "/Karishma-Interiors/static/media/interiror.98e528c6e1b0ca85ccee.png",
+    "static/media/plumbing.jpg": "/Karishma-Interiors/static/media/plumbing.7e9a2fb1eb02df5dfffd.jpg",
+    "static/media/renovation.jpg": "/Karishma-Interiors/static/media/renovation.00c19f16e476a3de9d8e.jpg",
+    "static/media/furniture.jpg": "/Karishma-Interiors/static/media/furniture.575c9edf67e6b554ae85.jpg",
+    "static/media/profile.jpg": "/Karishma-Interiors/static/media/profile.a98218e9cb8c056bf11c.jpg",
+    "static/media/cctv.jpg": "/Karishma-Interiors/static/media/cctv.3a7f43faee76c5d7dec6.jpg",
+    "static/media/paint.jpg": "/Karishma-Interiors/static/media/paint.4f84a8e5b070c9c548d1.jpg",
+    "static/media/profile2.jpg": "/Karishma-Interiors/static/media/profile2.9a6ebc5c2668b1f72f3f.jpg",
+    "index.html": "/Karishma-Interiors/index.html",
+    "main.0dc08e7b.css.map": "/Karishma-Interiors/static/css/main.0dc08e7b.css.map",
+    "main.cfc283a1.js.map": "/Karishma-Interiors/static/js/main.cfc283a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dc08e7b.css",
+    "static/js/main.cfc283a1.js"
+  ]
+}
