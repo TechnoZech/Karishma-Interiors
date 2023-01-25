@@ -2,11 +2,28 @@ import React, { useState,} from "react";
 import { NavLink } from "react-router-dom";
 import NavbarData from "./NavbarData";
 import "./NavbarStyles.css";
-
 const Logo = require("../images/Logo.png");
 function Navbar() {
 
 
+
+
+
+// const [setClass] = useState({});
+
+//   function ClassHandler() {
+//     setClass(()=>{
+// 		if(!clickCvalue){
+// 			setclickvalue((prevCvalue) => {
+// 				if (prevCvalue) {
+// 					return (prevCvalue = false);
+// 				} else {
+// 					return (prevCvalue = true);
+// 				}
+// 			});
+// 		}
+// 	});
+//   }
 
 // <----------------- Scroll to top for Brand icon -------------------->
 
@@ -75,8 +92,8 @@ function scrollUp() {
 
 /* // <----------------------  To render Navbar  ----------------------> */
 						) : (
-							<li key={index}>
-	 							<NavLink to={item.url} className={item.cName}>
+							<li key={index} onClick={clickCvalue ? {changesymbol} : undefined}>
+	 							<NavLink to={item.url} className={item.cName} >
 									<i class={item.icon}></i>
 									{item.title}
 								</NavLink>

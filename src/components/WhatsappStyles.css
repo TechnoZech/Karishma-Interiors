@@ -1,9 +1,9 @@
 .whatsapp_div {
-	display: inline-block;
 	position: fixed;
 	left: 92%;
 	top: 85%;
 	z-index: 99;
+	
 }
 
 .whatsapp_icon {
@@ -14,6 +14,7 @@
 	color: #ffffff;
 	padding: 16px 5px 15px 19px; 
 	border-radius: 100%;
+	box-shadow: rgb(0 0 0 / 15%) 0px 4px 12px 0px;
 }
 
 .whatsapp_icon:hover {
@@ -36,3 +37,5 @@
 		padding: 14px 5px 15px 17px;
 	}
 }
+
+

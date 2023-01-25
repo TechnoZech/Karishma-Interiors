@@ -1,6 +1,7 @@
 {
   "name": "karishma",
   "version": "0.1.0",
+  "homepage": "https://TechnoZech.github.io/Karishma-Interiors",
   "private": true,
   "dependencies": {
     "@fortawesome/free-regular-svg-icons": "^6.2.1",
@@ -20,6 +21,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,5 +49,8 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "author": "Dharmesh Sharma",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
