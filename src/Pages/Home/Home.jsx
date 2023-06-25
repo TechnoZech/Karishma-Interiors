@@ -21,11 +21,13 @@ function Home(){
                         </div>
                     
                 </div>
+                
             </section>
             </section>
             <HomeTwo />
             <Services />
             <Testimonials />
+            
         </>
     );
 }

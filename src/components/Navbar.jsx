@@ -5,10 +5,6 @@ import "./NavbarStyles.css";
 const Logo = require("../images/Logo.png");
 function Navbar() {
 
-
-
-
-
 // const [setClass] = useState({});
 
 //   function ClassHandler() {
@@ -36,16 +32,35 @@ function scrollUp() {
 
 // <----------------- To update Hamburger Menu to cross icon  -------------------->
 
-	const [clickCvalue, setclickvalue] = useState(false);
+	let [clickCvalue, setclickvalue] = useState(false);
+	let [isOpen, setisOpen] = useState(false);
 
 	function changesymbol() {
 		setclickvalue((prevCvalue) => {
-			if (prevCvalue) {
-				return (prevCvalue = false);
-			} else {
-				return (prevCvalue = true);
+			if(isOpen){
+				// setisOpen(false);
+				return true;
+			}else{
+				return false;
+			}
+
+			// if (prevCvalue) {
+			// 	return (prevCvalue = false);
+			// } else {
+			// 	return (prevCvalue = true);
+			// }
+		});
+	}
+
+	function updateOpen(){
+		setisOpen((isOpen) => {
+			if(isOpen){
+				return false;
+			}else{
+				return true;
 			}
 		});
+		changesymbol();
 	}
 
 
@@ -74,7 +89,7 @@ function scrollUp() {
 
 {/* // <----------------------   Navbar Hamburger Icon  ----------------------> */}
 
-				<div className="menu-icons" onClick={changesymbol} >
+				<div className="menu-icons" onClick={updateOpen} >
 					<i className={clickCvalue ? "fas fa-times" : "fas fa-bars"}></i>
 				</div>
 {/* // <------------------- Navbar Hamburger Menu List Logic  ---------------------> */}
@@ -92,7 +107,7 @@ function scrollUp() {
 
 /* // <----------------------  To render Navbar  ----------------------> */
 						) : (
-							<li key={index} onClick={clickCvalue ? {changesymbol} : undefined}>
+							<li key={index} onClick={changesymbol}>
 	 							<NavLink to={item.url} className={item.cName} >
 									<i class={item.icon}></i>
 									{item.title}
