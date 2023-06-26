@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Karishma-Interiors/static/css/main.0dc08e7b.css",
-    "main.js": "/Karishma-Interiors/static/js/main.cfc283a1.js",
+    "main.css": "/Karishma-Interiors/static/css/main.03f9a981.css",
+    "main.js": "/Karishma-Interiors/static/js/main.6e33246a.js",
     "static/media/spaceSavingFurniture.jpg": "/Karishma-Interiors/static/media/spaceSavingFurniture.b94e2995de357da1526a.jpg",
     "static/media/construction.jpg": "/Karishma-Interiors/static/media/construction.e320143c9312a480e460.jpg",
     "static/media/kitchen.jpg": "/Karishma-Interiors/static/media/kitchen.ae6a22db8a4f2b87b767.jpg",
@@ -22,11 +22,11 @@
     "static/media/paint.jpg": "/Karishma-Interiors/static/media/paint.4f84a8e5b070c9c548d1.jpg",
     "static/media/profile2.jpg": "/Karishma-Interiors/static/media/profile2.9a6ebc5c2668b1f72f3f.jpg",
     "index.html": "/Karishma-Interiors/index.html",
-    "main.0dc08e7b.css.map": "/Karishma-Interiors/static/css/main.0dc08e7b.css.map",
-    "main.cfc283a1.js.map": "/Karishma-Interiors/static/js/main.cfc283a1.js.map"
+    "main.03f9a981.css.map": "/Karishma-Interiors/static/css/main.03f9a981.css.map",
+    "main.6e33246a.js.map": "/Karishma-Interiors/static/js/main.6e33246a.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dc08e7b.css",
-    "static/js/main.cfc283a1.js"
+    "static/css/main.03f9a981.css",
+    "static/js/main.6e33246a.js"
   ]
 }
