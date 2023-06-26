@@ -36,30 +36,16 @@ function scrollUp() {
 	let [isOpen, setisOpen] = useState(false);
 
 	function changesymbol() {
-		setclickvalue((prevCvalue) => {
-			if(isOpen){
-				// setisOpen(false);
-				return true;
-			}else{
-				return false;
-			}
-
-			// if (prevCvalue) {
-			// 	return (prevCvalue = false);
-			// } else {
-			// 	return (prevCvalue = true);
-			// }
-		});
+		if(isOpen){
+			setisOpen(false);
+			setclickvalue(false);
+		}else{
+			setclickvalue(true);
+		}
 	}
 
 	function updateOpen(){
-		setisOpen((isOpen) => {
-			if(isOpen){
-				return false;
-			}else{
-				return true;
-			}
-		});
+		setisOpen(!isOpen);
 		changesymbol();
 	}
 
@@ -94,7 +80,7 @@ function scrollUp() {
 				</div>
 {/* // <------------------- Navbar Hamburger Menu List Logic  ---------------------> */}
 
-				<ul className={clickCvalue ? "nav-menu active" : "nav-menu"}>
+				<ul className={isOpen ? "nav-menu active" : "nav-menu"}>
 
 					{NavbarData.map((item, index) => {
 						return item.cName === "nav-btn" ? ( // To remove active class from call-now btn
