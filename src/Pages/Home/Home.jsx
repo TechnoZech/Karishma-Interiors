@@ -14,7 +14,7 @@ function Home(){
                 <div className="home_container">
                     
                         <div className="home_text">
-                            <h1 className="home-text">Let's <br/><span>Make your <br/> house</span><br/> A Home.</h1>
+                            <h1 className="home-text">Let's <br/><span>Make your <br/> house</span><br/>Home.</h1>
                         </div>
                         <div className="home_img">
                             <img className="home-img img-fluid animated" src={Bedroom} alt="bedroom" />
